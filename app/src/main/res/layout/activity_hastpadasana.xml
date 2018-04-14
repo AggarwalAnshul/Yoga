@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apkglobal.yoga.Hastpadasana">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            style="@style/headings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HastPadasna" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+
+        <!--GIf-->
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifImageView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/hastpadasana" />
+
+        <TextView
+            style="@style/subheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STEPS:" />
+        <!--Steps:-->
+        <TextView
+            style="@style/normaltext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hastpadasana" />
+
+        <TextView
+            style="@style/subheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Benefits: " />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/hastpadasna_still" />
+
+        <!--benfits-->
+        <TextView
+            style="@style/normaltext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hastapadasana_benefits" />
+    </LinearLayout>
+</ScrollView>

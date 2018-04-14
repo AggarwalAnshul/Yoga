@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#26A69A"
+    android:orientation="vertical"
+    tools:context="com.apkglobal.yoga.Categories">
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="330dp"
+        android:layout_height="36dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/et_back"
+        android:gravity="center"
+        android:text="Yoga For Fitness"></Button>
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_below="@+id/btn4"
+        android:layout_width="330dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/et_back"
+        android:gravity="center"
+        android:text="Yoga For Anxiety"></Button>
+
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_below="@+id/btn3"
+        android:layout_width="330dp"
+        android:layout_height="36dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/et_back"
+        android:gravity="center"
+        android:text="Yoga For Beginners"></Button>
+
+
+    <Button
+
+        android:id="@+id/btn3"
+        android:layout_below="@+id/btn1"
+        android:layout_width="330dp"
+        android:layout_height="36dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/et_back"
+        android:gravity="center"
+        android:text="Yoga For Backpain"></Button>
+
+    <!--Failed UI
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        &lt;!&ndash;Fitness&ndash;&gt;
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/yoga_for_fitness"/>
+
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_marginLeft="15dp"
+            android:layout_width="330dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/et_back"
+            android:gravity="center"
+            android:text="Yoga For Fitness"></Button>
+
+
+
+        &lt;!&ndash;Yoga For Anxiety&ndash;&gt;
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/yoga_for_anxiety"/>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_marginLeft="15dp"
+            android:layout_width="330dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/et_back"
+            android:gravity="center"
+            android:text="Yoga For Anxiety"></Button>
+
+        &lt;!&ndash;Yoga For Backpain&ndash;&gt;
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/yoga_for_backpain"/>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_marginLeft="15dp"
+            android:layout_width="330dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/et_back"
+            android:gravity="center"
+            android:text="Yoga For Fitness"></Button>
+
+
+    &lt;!&ndash;Beginners&ndash;&gt;
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/yoga_for_beginners"/>
+
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_marginLeft="15dp"
+            android:layout_width="330dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/et_back"
+            android:gravity="center"
+            android:text="Yoga For Beginners"></Button>
+
+    </LinearLayout>-->
+</RelativeLayout>

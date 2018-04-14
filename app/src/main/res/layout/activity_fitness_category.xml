@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.apkglobal.yoga.Fitness_category">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/yoga_for_fitness" />
+
+    <Button
+        android:id="@+id/btn_chakrasana"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/et_back"
+        android:text="ChakrAsana" />
+
+
+    <Button
+        android:id="@+id/btn_salabhasana"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_chakrasana"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_back"
+        android:text="SalabhAsana"
+        android:textAlignment="center" />
+
+
+    <Button
+        android:id="@+id/btn_ums"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_salabhasana"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_back"
+        android:text="UrdhvaMukhaShavasana" />
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="VrikshAsana"
+        android:layout_below="@id/btn_ums"
+        android:background="@drawable/et_back"
+        android:id="@+id/btn_vrikshasana"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>

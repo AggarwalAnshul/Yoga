@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apkglobal.yoga.Kati_chakrasana">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--Heading-->
+        <TextView
+            style="@style/headings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kati Chakrasana" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+
+        <!--Still Image-->
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/katichakasana" />
+
+        <!--Steps:-->
+        <TextView
+            style="@style/subheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Steps:" />
+
+        <TextView
+            style="@style/normaltext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/katichakrasana" />
+<!--Benefits-->
+        <TextView
+            style="@style/subheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Benefits: " />
+
+        <TextView
+            style="@style/normaltext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/katichakrasana_benefits" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.apkglobal.yoga">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/appicon"
+        android:label="Yoga: The Way"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Kati_chakrasana" />
+        <activity android:name=".DirectActivity" />
+        <activity android:name=".Hastpadasana" />
+        <activity android:name=".ArdhaChakrasana" />
+        <activity android:name=".Vrikshasana" />
+        <activity android:name=".Pashchima_Namaskarasana" />
+        <activity android:name=".Utkatasana" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Navigation_Drawer"
+            android:label="@string/title_activity_navigation__drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Janusirsasana" />
+        <activity android:name=".Urdhvamukha_shvanasana" />
+        <activity android:name=".Nadi_Shodhan_pranayama" />
+        <activity android:name=".Urdhva_Dhanurasana" />
+        <activity android:name=".Ardh_Shalabasana" />
+        <activity android:name=".Garudasana" />
+        <activity android:name=".Categories" />
+        <activity android:name=".Fitness_category" />
+        <activity android:name=".Backpain_category" />
+        <activity android:name=".Anxiety_category" />
+        <activity android:name=".Beginners_category" />
+        <activity android:name=".About" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apkglobal.yoga.Anxiety_category">
+    
+    
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@id/image"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/yoga_for_anxiety"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/image"
+        android:background="@android:color/darker_gray" />
+
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:background="@drawable/et_back"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/image"
+        android:layout_centerHorizontal="true"
+        android:text="Janu Shirsasana"
+        android:id="@+id/btn_janushirsasana"/>
+
+
+    <Button
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_back"
+        android:layout_width="350dp"
+        android:layout_below="@id/btn_janushirsasana"
+        android:layout_centerHorizontal="true"
+        android:layout_height="35dp"
+        android:text="KonAsana"
+        android:id="@+id/btn_check"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/btn_check"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/et_back"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:text="Nadi Shodhan Pranayam"
+        android:id="@+id/btn_nadishodhan"/>
+
+    <Button
+        android:layout_below="@id/btn_nadishodhan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_back"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:text="Kati Chakrasna"
+        android:id="@+id/btn_katichakrasana"
+        android:layout_marginBottom="20dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/btn_katichakrasana"
+        android:background="@android:color/darker_gray" />
+
+
+</RelativeLayout>

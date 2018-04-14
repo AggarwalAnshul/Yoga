@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apkglobal.yoga.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            style="italic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TrikonAasana \n(Triangle Pose)"
+            android:textColor="#000"
+            android:textSize="35sp" />
+
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/trikonaasana_still" />
+
+
+        <TextView
+            style="@style/normaltext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Steps:" />
+
+
+        <!--Steps
+        -->
+        <TextView
+            style="@style/normaltext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trikonaasana" />
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/trikonasana" />
+
+
+        <!--Benefits-->
+
+        <TextView
+            style="@style/subheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Benefits:" />
+
+        <TextView
+            style="@style/normaltext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/trikonaasana_Benefits" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.apkglobal.yoga.Beginners_category">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@id/image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/yoga_for_beginners" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/image"
+            android:background="@android:color/darker_gray" />
+
+
+        <Button
+            android:id="@+id/btn_katichakrasana"
+            style="@style/btn_text"
+            android:layout_width="350dp"
+            android:layout_height="35dp"
+            android:layout_below="@id/image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/et_back"
+            android:text="Katichakrasana" />
+
+
+        <Button
+            android:id="@+id/btn_hastpadasana"
+            android:layout_width="350dp"
+            android:layout_height="35dp"
+            android:layout_below="@id/btn_katichakrasana"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_back"
+            android:text="HastPadasana" />
+
+
+        <Button
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/btn_hastpadasana"
+            android:id="@+id/btn_trikonaasana"
+            android:layout_width="350dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_back"
+            android:text="Trikonasana" />
+
+        <Button
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/btn_trikonaasana"
+            android:id="@+id/btn_ardhachakrasana"
+            style="@style/btn_text"
+            android:layout_width="350dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_back"
+            android:text="Ardhchakrasana" />
+
+        <Button
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/btn_ardhachakrasana"
+            android:id="@+id/btn_vrikshasana"
+            style="@style/btn_text"
+            android:layout_width="350dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_back"
+            android:text="Vrikshasana" />
+
+        <Button
+            android:id="@+id/btn_pashchimnamaskarasana"
+            style="@style/btn_text"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/btn_vrikshasana"
+            android:layout_width="350dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_back"
+            android:text="pashchimnamaskarasana" />
+
+        <Button
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/btn_pashchimnamaskarasana"
+            android:id="@+id/btn_utkatasana"
+            style="@style/btn_text"
+            android:layout_width="350dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_back"
+            android:layout_marginBottom="20dp"
+            android:text="Utkatasana" />
+
+
+        <View
+android:layout_below="@id/btn_utkatasana"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="20dp"
+            android:background="@android:color/darker_gray" />
+
+    </RelativeLayout>
+</ScrollView>
